@@ -1,0 +1,31 @@
+{
+  "name": "react-aws-s3-uploader",
+  "version": "1.0.0",
+  "description": "Simple React AWS S3 Uploader",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gndx/react-aws-s3-uploader.git"
+  },
+  "keywords": [
+    "react",
+    "AWS",
+    "S3",
+    "file",
+    "file-upload",
+    "s3-upload",
+    "react-s3"
+  ],
+  "author": {
+    "name": "Oscar Barajas",
+    "email": "oscar@arepa.dev"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gndx/react-aws-s3-uploader/issues"
+  },
+  "homepage": "https://github.com/gndx/react-aws-s3-uploader#readme"
+}
