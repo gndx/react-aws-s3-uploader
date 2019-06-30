@@ -27,5 +27,11 @@
   "bugs": {
     "url": "https://github.com/gndx/react-aws-s3-uploader/issues"
   },
-  "homepage": "https://github.com/gndx/react-aws-s3-uploader#readme"
+  "homepage": "https://github.com/gndx/react-aws-s3-uploader#readme",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
+  }
 }
