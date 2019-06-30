@@ -2,7 +2,7 @@
   "name": "react-aws-s3-uploader",
   "version": "1.0.0",
   "description": "Simple React AWS S3 Uploader",
-  "main": "dist/index.js",
+  "main": "build/index.js",
   "scripts": {
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
     "lint": "eslint src/ --fix",
@@ -35,6 +35,7 @@
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
     "@babel/preset-react": "^7.0.0",
+    "aws-sdk": "^2.485.0",
     "babel-eslint": "^10.0.2",
     "babel-loader": "^8.0.5",
     "css-loader": "^3.0.0",

@@ -1,4 +1,4 @@
-const path = require('path')
+const path = require('path');
 
 module.exports = {
   entry: './src/index.js',
@@ -15,6 +15,11 @@ module.exports = {
         use: {
           loader: 'babel-loader',
         },
+      },
+      {
+        test: /\.css$/,
+        exclude: /(node_modules|build)/,
+        use: ['style-loader', 'css-loader'],
       },
     ],
   },
@@ -39,4 +44,4 @@ module.exports = {
       'prop-types': path.resolve(__dirname, './node_modules/prop-types'),
     },
   },
-}
+};

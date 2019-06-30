@@ -1,0 +1,77 @@
+.S3Uploader-content {
+  display: flex;
+}
+.S3Uploader-service {
+  position: relative;
+  display: inline-block;
+}
+.S3Uploader button {
+  display: block;
+  padding: 6px 12px;
+  color: #000;
+  border-radius: 0.4em;
+  transition: background 0.3s;
+  outline: none;
+}
+.S3Uploader input[type=file] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 1px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.S3Uploader-image {
+  margin: 0 0 0 8px;
+}
+.S3Uploader-image img {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.Loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #f00;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  animation: spin 4s linear infinite;
+}
+@-moz-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
