@@ -1,9 +1,6 @@
 {
   "presets": [
-    "env"
-  ],
-  "plugins": [
-    "transform-object-rest-spread",
-    "transform-react-jsx"
+    "es2015",
+    "react"
   ]
 }
