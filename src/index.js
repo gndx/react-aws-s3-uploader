@@ -77,7 +77,7 @@ class S3Uploader extends Component {
 }
 
 S3Uploader.defaultProps = {
-  buttonName: 'Subir Imagen',
+  buttonName: 'Upload File',
   bucketRegion: 'us-east-1',
 };
 
