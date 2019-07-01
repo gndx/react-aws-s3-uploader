@@ -30,6 +30,12 @@ module.exports = {
       amd: 'React',
       root: 'React',
     },
+    'aws-sdk': {
+      commonjs: 'aws-sdk',
+      commonjs2: 'aws-sdk',
+      amd: 'aws-sdk',
+      root: 'aws-sdk',
+    },
     'prop-types': {
       commonjs: 'prop-types',
       commonjs2: 'prop-types',

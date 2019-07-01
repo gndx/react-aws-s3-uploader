@@ -37,6 +37,8 @@
         ]
       }
     ],
+    "react/destructuring-assignment": 0,
+    "consistent-return": 0,
     "no-restricted-properties": [
       "error",
       {
@@ -49,5 +51,14 @@
         "packageDir": "./"
       }
     ]
+  },
+  "globals": {
+    "window": true,
+    "document": true,
+    "localStorage": true,
+    "FormData": true,
+    "FileReader": true,
+    "Blob": true,
+    "navigator": true
   }
 }
