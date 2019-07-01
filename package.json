@@ -61,7 +61,8 @@
   "peerDependencies": {
     "aws-sdk": "^2.485.0",
     "react": "^16.8.6",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "prop-types": "^15.7.2"
   },
   "husky": {
     "hooks": {
