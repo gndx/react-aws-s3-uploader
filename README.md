@@ -75,7 +75,7 @@ funtion to return the url of the file stored in s3.
 ```
 
 # Demo
-Check here: [react-mailchimp-form](https://arepa-dev.github.io/reactAWSUploader/)
+Check here: [react-aws-s3-uploader](https://arepa-dev.github.io/reactAWSUploader/)
 
 # Contributing
 If someone wants to add or improve something, I invite you to collaborate directly in this repository: [react-mailchimp-form](https://github.com/gndx/react-aws-s3-uploader)
