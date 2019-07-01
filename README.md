@@ -5,6 +5,9 @@ It provides an easy-to configure component to Uploading Photos to Amazon S3 from
 Based on this documentation:
 [Uploading Photos to Amazon S3 from a Browser"](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/s3-example-photo-album.html)
 
+![React](https://raw.githubusercontent.com/arepa-dev/reactAWSUploader/master/react-aws-s3-uploader.gif)
+
+
 # Install
 
 ```npm
