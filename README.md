@@ -69,7 +69,7 @@ funtion to return the url of the file stored in s3.
     buttonName="Upload File"
     bucketRegion="us-east-1"
     albumBucketName="arepa"
-    IdentityPoolId="us-east-1:2fc911ef-0679-4339-bd17-dd9e5733893a"
+    IdentityPoolId="us-east-1:2fc911ef-0679"
     handleFile={this.handleFile}
   />
 ```

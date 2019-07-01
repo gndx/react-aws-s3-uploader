@@ -1,6 +1,6 @@
 {
   "name": "react-aws-s3-uploader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple React AWS S3 Uploader",
   "main": "build/index.js",
   "scripts": {
