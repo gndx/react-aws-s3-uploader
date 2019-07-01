@@ -9,6 +9,7 @@
     "start": "webpack --mode development --config webpack.config.js --watch",
     "build": "webpack --mode production --config webpack.config.js --progress"
   },
+  "prepublishOnly": "npm run build",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gndx/react-aws-s3-uploader.git"
