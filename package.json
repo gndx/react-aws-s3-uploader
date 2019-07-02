@@ -1,6 +1,6 @@
 {
   "name": "react-aws-s3-uploader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple React AWS S3 Uploader",
   "main": "build/index.js",
   "scripts": {
@@ -57,9 +57,6 @@
     "webpack-cli": "^3.3.5",
     "aws-sdk": "^2.485.0",
     "prop-types": "^15.7.2"
-  },
-  "dependencies": {
-    "aws-sdk": "^2.485.0"
   },
   "peerDependencies": {
     "aws-sdk": "^2.485.0",
